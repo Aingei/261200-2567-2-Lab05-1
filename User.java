@@ -1,8 +1,8 @@
 import java.time.LocalDate;
 
 public class User {
-    private String name;
-    private LocalDate dob; //date of birth
+    protected String name;
+    protected LocalDate dob; //date of birth
 
     public User(){
         this.name = null;
